@@ -3,7 +3,7 @@ import React from "react";
 const Cart = ({ cart }) => {
   // Calculate total amount directly in render
   const total = cart.reduce((sum, ele) => sum + ele.price, 0);
-
+  
   return (
     <div className="px-10 grid grid-cols-2">
       <h1 className="font-extrabold text-center p-2">This is cart component</h1>
