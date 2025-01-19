@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router";
 
-
 const Navbar = () => {
   return (
     <div className="container bg-slate-400 flex justify-between px-10 py-4 max-w-full">
@@ -13,7 +12,7 @@ const Navbar = () => {
           <Link to={"/"}>
             <li className="mr-8">Home</li>
           </Link>
-          <Link to={'/cart'}>
+          <Link to={"/cart"}>
             <li>Cart</li>
           </Link>
         </ul>
